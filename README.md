@@ -1,3 +1,15 @@
+The purpose of this project is to learn the Angular framework, specifically data and events! I also want to try and model an evolution algorithm to try to better understand the simple evolution artificial intelligence model. 
+    - Create a creature (prob just a shape, color, and size)
+    - Randomly generate a certain number of creatures
+    - The random creatures will get a "score" based on how close they are to the "target" creature
+    - The closer the score, the better chance for that creature to breed
+    - Creatures will breed and their offspring will inherit features from both parents
+    - There will be a chance to mutate features (which is why evolution evolves)
+    - Repeat until the offspring matches the target creature
+    - Then change the target creature and watch how the creatures evolve to the new target!
+ ALSO building my Git and Github skills by using issues and branches instead of pushing everything to main. Hopefully will better understand code merging, pull requests, and repo management that I can use when working on
+future team projects!
+Learning by doing, trial and error. YAYYYY!
 # FirstNgApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.6.
@@ -11,49 +23,3 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
